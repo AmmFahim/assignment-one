@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1600px;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+}
+
+/*Fira fans font family */
+.fira-sans {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Header-part */
+header {
+  display: flex;
+  align-items: center;
+  padding: 14px 160px;
+  justify-content: space-between;
+}
+
+.header-btn {
+  color: #006a50;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* main-section-part start */
+main {
+  margin: 0 160px;
+}
+
+/* banner-section start, Here i make design by using class */
+.banner-section {
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  display: flex;
+  height: 560px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  margin: 20px 0 80px 0;
+  gap: 64px;
+}
+
+.banner-first-section {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e0e0e75;
+  margin-bottom: 16px;
+}
+
+.banner-second-section {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.banner-third-section {
+  color: white;
+  background-color: #006a50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 17px 34px;
+  border: none;
+}
+
+/* pillars part */
+.pillars {
+  display: flex;
+  gap: 24px;
+}
+
+.pillar {
+  background-color: #ffffff;
+  border: .5px solid rgb(221, 219, 219);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 80px;
+  margin-top: 32px;
+}
+
+.pillar h4 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.pillar p {
+  color: #0e0e0e7c;
+  font-weight: 400;
+}
+
+
+/* donate-part */
+.donate {
+  text-align: center;
+}
+
+.donate p {
+  margin-top: 24px;
+}
+
+.input {
+  color: black;
+  background-color: white;
+  border: .5px solid rgb(221, 219, 219);
+  border-radius: 16px;
+  padding: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 32px 12px;
+}
+
+.input-1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+  background-color: white;
+  border: .5px solid rgb(221, 219, 219);
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Subscribe Newsletter */
+.subscribe {
+  background-color: #a5f4d086;
+  padding: 80px 100px;
+  border-radius: 24px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.subscribe .last-btn {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe .last-btn input {
+  border: none;
+  padding: 18px 40px;
+  border-radius: 6px 0 0 6px;
+  width: 600px;
+}
+
+.subscribe .last-btn button {
+  border: none;
+  padding: 17px 34px;
+  border-radius: 0 6px 6px 0;
+  color: white;
+  background-color: #006a50;
+}
+
+/* footer-part */
+footer {
+  background-color: white;
+  text-align: center;
+}
+
+footer h2 {
+  padding: 50px 160px;
+}
+
+footer div {
+  justify-content: center;
+  display: flex;
+  gap: 23px;
+  padding: 50px 160px;
+}
+/* button-effect-part */
+.button-effect:hover{
+background-color: white;
+color: black;
+border: .5px solid black;
+}
+.subscribe .last-btn button:hover {
+  background-color: white;
+  color: black;
+  border: .5px solid black;
+}
+.button-effect-1:hover{
+  background-color: #006a50;
+  color: white;
+  border: .5px solid #006a50;
+}
